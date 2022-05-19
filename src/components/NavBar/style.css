@@ -1,0 +1,41 @@
+.parent-container {
+  /* background-color: rgb(95, 38, 38); */
+  box-shadow: 0px 2px 5px #5a5a5a44;
+  height: 50px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px 20px;
+}
+
+.menu-container {
+  padding: 8px 10px;
+  background-color: rgb(11, 11, 11);
+  color: white;
+  border-radius: 50%;
+}
+.navbar-list-container {
+  /* background-color: rgb(55, 70, 227); */
+  display: flex;
+  justify-content: space-around;
+  font-size: 14px;
+  font-weight: bold;
+  gap: 20px;
+  text-align: center;
+}
+
+.navbar-list-container img {
+  width: 24px;
+  height: auto;
+}
+
+.login-icon-container {
+  /* background-color: rgb(241, 210, 210); */
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.icon-container img {
+  width: 16px;
+}
